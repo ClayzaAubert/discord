@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <head>
+        <title>Clayza Aubert - Card</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="theme-color" content="#9D00EC">
+        <meta name="description" content="I am a Freelancer. I love working on new projects and ideas." />
+        <meta property="og:site_name" content="Clayza Aubert" />
+        <meta property="og:title" content="Card Profile Clayza Aubert" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="I am a Freelancer. I love working on new projects and ideas." />
+        <meta property="og:image" content="https://cdn.discordapp.com/attachments/1098731559521107968/1108848385005469756/Tumbnail-website-Clayza.jpg"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/1098731559521107968/1103494253860110396/IMG_20230504_083159.jpg" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    </head>
+  <body>
+    <div class="card-container">
+      <!-- First Card -->
+      <div class="card nitro-card">
+        <div class="card-header">
+          <div
+            style="background: url('./assets/img/banner.gif')"
+            class="banner-img"
+          ></div>
+        </div>
+        <div class="card-body">
+          <div class="profile-header">
+            <div class="profil-logo">
+              <img src="./assets/img/Clayza-Aubert.jpg" />
+            </div>
+            <div class="badges-container">
+              <div class="badge-item">
+                <img src="./assets/img/badges/bravery.png" alt="" />
+                <div class="tooltip tooltip-up">HypeSquad Bravery</div>
+              </div>
+              <div class="badge-item">
+                <img src="./assets/img/badges/nitro.png" alt="" />
+                <div class="tooltip tooltip-up">Nitro</div>
+              </div>
+              <div class="badge-item">
+                <img src="./assets/img/badges/boost.png" alt="" />
+                <div class="tooltip tooltip-up">
+                  Boost Server 24 Month
+                </div>
+              </div>
+              <div class="badge-item">
+                <img src="./assets/img/badges/Server_owner.png" alt="" />
+                <div class="tooltip tooltip-up">
+                  Server Owner
+                </div>
+              </div>
+              <div class="badge-item">
+                <img src="./assets/img/badges/active-developer.png" alt="" />
+                <div class="tooltip tooltip-up">
+                  Active Developer
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="profile-body">
+            <div class="username">
+              Clayza Aubert<span>#9392</span>
+              <div class="badge">Owner</div>
+            </div>
+            <hr />
+            <div class="basic-infos">
+              <div class="category-title">About Me</div>
+              <p>
+                Walking along the river and looking for missing puzzle pieces<br />
+                <a href="https://s.id/clayzaaubert" target="_blank">♛〡My Microsite</a> <br />
+              </p>
+            </div>
+            <div class="basic-infos">
+              <div class="category-title">Member Since</div>
+              <p>Jul 26, 2021</p>
+            </div>
+            <div class="roles">
+              <div class="category-title">Roles</div>
+              <div class="roles-list">
+                <div class="role">
+                  <div class="role-color" style="background: rgb(119, 0, 255)"></div>
+                  <p>Aubert Family</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(255, 0, 212)"></div>
+                  <p>Moderator</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(0, 162, 255)"></div>
+                  <p>7 lord Of The Void</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(55, 7, 59)"></div>
+                  <p>Moonlight Lover</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(34, 6, 78)"></div>
+                  <p>Nocturnal Players</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(0, 255, 229)"></div>
+                  <p>Manager</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(218, 241, 8)"></div>
+                  <p>Editor</p>
+                </div>
+                <div class="role">
+                  <div class="role-color" style="background: rgb(8, 241, 78)"></div>
+                  <p>Builder</p>
+                </div>
+                <div class="role role-add">
+                  <div class="role-add-text">+</div>
+                </div>
+              </div>
+            </div>
+            <div class="note">
+              <div class="category-title">Note</div>
+              <textarea placeholder="Click for add a note"></textarea>
+            </div>
+            <div class="message">
+              <input type="text" placeholder="Send a message to @Clayza Aubert" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="audio-wrapper">
+        <audio id="myAudio" controls autoplay style="display: none;">
+          <source src="./assets/bgs/sound.mp3" type="audio/mpeg">
+        </audio>
+        <div class="play-icon"></div>
+      </div>
+
+      <script>
+        var audio = document.getElementById('myAudio');
+        var playIcon = document.querySelector('.play-icon');
+        
+        playIcon.addEventListener('click', function() {
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+        });
+      </script>
+  </body>
+</html>
