@@ -1,6 +1,22 @@
 /* Import */
 @import url("../font/style.css");
 
+  .audio-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .play-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url('path/to/play-icon.png') no-repeat center;
+    background-size: cover;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+  }
+
 /* General */
 * {
   margin: 0;
